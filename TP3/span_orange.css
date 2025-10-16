@@ -1,0 +1,32 @@
+.highlight {
+    background-color: #ff7f4d; /* Couleur orange clair */
+    color: #ffffff; /* Texte en blanc */
+    padding: 20px;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 32px;
+    width: 300%; /* 1/3 de la largeur */
+    height: 200px; /* taille fixe, tu peux ajuster */
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column; /* organise en colonne */
+    justify-content: space-between; /* espace entre haut et bas */
+    align-items: center; /* centre horizontalement le titre */
+}
+
+.Titre {
+    text-align: center;
+    width: 100%;
+}
+
+.connexion-link {
+    align-self: flex-start;
+    font-size: 44px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.connexion-link:hover {
+    text-decoration: underline;
+}
